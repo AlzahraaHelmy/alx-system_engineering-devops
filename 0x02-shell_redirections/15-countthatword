@@ -1,2 +1,2 @@
 #!/bin/bash
-whoami
+grep -c -i "bin" /etc/passwd
